@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 26
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+roboflow:
+  workspace: hafidh-husna
+  project: sign-language-translator-qsow0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hafidh-husna/sign-language-translator-qsow0/dataset/1
